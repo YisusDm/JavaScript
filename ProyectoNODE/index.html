@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio #1 - Conversión de longitud</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+
+<body>
+    <form action="POST" align="center">
+        <h4 align="center"><strong>CONVERSOR DE LONGITUD</strong></h4>
+        VALOR
+        <br><input type="number">
+        <br><br> Longitud origen:
+
+        <select name="undInicial" id="1">
+            <option value="cm">Centimetros</option>
+            <option value="mt">Metros</option>
+            <option value="km">Kilometros</option>
+        </select>
+        <br><br>Longitud Destino:
+        <select name="undFinal" id="2">
+            <option value="cm">Centimetros</option>
+            <option value="mt">Metros</option>
+            <option value="km">Kilometros</option>
+        </select><br><br>
+        <input type="submit" value="Convertir">
+    </form>
+    <br>
+    <br>
+    <form action="POST" align="center">
+        <label>Nombre: </label>
+        <input type="text" name="nombre">
+        <br>
+        <label>Apellido: </label>
+        <input type="text" name="apellido">
+        <br>
+        <label>Edad: </label>
+        <input type="number" name="edad">
+        <br><br> Genero: <br>
+        <input type="radio" name="genero" value="1"> Hombre
+        <input type="radio" name="genero" value="2"> Mujer
+        <br><br>Municipio:
+        <select name="ciudad">
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Malambo">Malambo</option>
+            <option value="Soledad">Soledad</option>
+        </select><br><br> Tipo: <br>
+        <input type="checkbox" value="vegano"> Vegano 
+        <input type="checkbox" value="Lactosa"> Libre de Lactosa 
+        <input type="checkbox" value="gluten"> Sin gluten
+        <br><br>
+
+
+        <input type="submit" value="Enviar datos">
+    </form>
+</body>
+
+</html>

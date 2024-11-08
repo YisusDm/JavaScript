@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <section class="registry-section">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Registro - Validar</h2>
+            </div>
+            <form id="user-form" class="form">
+                <div class="form-box">
+                    <label for="nickName">Nombre</label>
+                    <input type="text" name="nickName" id="nickName" placeholder="Nombre Completo">
+                    <small class="error-text">Introduce un nombre</small>
+                </div>
+                <div class="form-box">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@correo.com">
+                    <small class="error-text">Introduce un email valido</small>
+                </div>
+                <div class="form-box">
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password">
+                    <small class="error-text">Introduce una contraseña de +6 caracteres</small>
+                </div>
+                <button type="submit" id="submit-btn" disabled>Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
